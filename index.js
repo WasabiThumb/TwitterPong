@@ -44,7 +44,7 @@ const BLUE = constructBot(tokens.blue);
 		let blue_mid = "";
 		while (true) {
 			var turns = db.get('turns').value()+1;
-			db.set('turns', turns);
+			db.set('turns', turns).write();
 			let blueScore = db.get('blueScore').value();
 			let redScore = db.get('redScore').value();
 			
