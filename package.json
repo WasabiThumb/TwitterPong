@@ -1,0 +1,15 @@
+{
+  "name": "twitterpong",
+  "version": "1.0.0",
+  "description": "Two-player pong with twitter bots!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "WasabiThumbs",
+  "license": "ISC",
+  "dependencies": {
+    "lowdb": "^1.0.0",
+    "twit": "^2.2.11"
+  }
+}
